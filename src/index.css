@@ -1,0 +1,21 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+  padding:0px;
+}
+
+main {
+  width:100%;
+  min-height: 100vh;
+  display: flex; 
+  flex-direction: column;  
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;  
+}
+
+body{
+  min-width: fit-content;
+}

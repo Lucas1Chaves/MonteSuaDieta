@@ -1,0 +1,11 @@
+.input{
+  background-color: transparent;
+  border: 1px solid black;
+  text-align: center;
+  &:hover{
+    background-color: #f2f2f2;
+    cursor:text;
+    border: 1px solid grey;
+    outline: none;
+  }
+}
