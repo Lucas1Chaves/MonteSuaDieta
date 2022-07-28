@@ -85,7 +85,7 @@ export default function TableCard({number,id}){
     <div className={style.wrapper}>
       <div className={style.delete_button}>
         <h3>{number}ª Refeição</h3>
-        <IconButton onClick ={()=>setMealsId(deleteMeal)}  size="small" aria-label="add" sx={{...buttonSx,bgcolor:'#EB5C4C',margin:'5px'}}>
+        <IconButton onClick ={()=>setMealsId(deleteMeal)}  size="small" aria-label="delete" >
           <DeleteIcon/>
         </IconButton>
         </div>

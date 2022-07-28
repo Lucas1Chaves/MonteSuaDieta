@@ -18,4 +18,11 @@ a, a:hover, a:focus, a:active {
 
 body{
   min-width: fit-content;
+  height: 100%;
+}
+html{
+  height: 100%;
+}
+#root{
+  height: 100%;
 }
